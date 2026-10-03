@@ -1,0 +1,22 @@
+model:
+  active: cnn
+  cnn_weights: weights/best_cnn_cpu.pt
+  transfer_weights: weights/best_transfer_cpu.pt
+  friend_weights: weights/friend.pt
+  confidence_threshold: 0.40
+
+camera:
+  source: ""
+  reconnect_delay: 1.0
+
+detector:
+  scale_factor: 1.1
+  min_neighbors: 5
+  min_face_size: 40
+  margin: 0.10
+  detect_scale: 1.0
+
+runtime:
+  device: cpu
+  display_width: 960
+  skip_frames: 0

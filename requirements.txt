@@ -1,0 +1,6 @@
+torch>=1.13
+torchvision>=0.14
+# OpenCV 5.x wheels no longer ship Haar cascade XML files -> stay on 4.x
+opencv-python>=4.5,<5
+numpy
+PyYAML

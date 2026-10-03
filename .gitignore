@@ -1,0 +1,36 @@
+# Local environments and caches
+.venv/
+.pixi/
+/pixi.toml
+/pixi.lock
+/.gitattributes
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private model artifacts and generated results
+# weights/*
+# !weights/.gitkeep
+# outputs/*
+# !outputs/.gitkeep
+# *.pt
+# *.pth
+# *.ckpt
+# *.safetensors
+# *.onnx
+# *.ts
+
+# Private local setup and notes
+/config.local.yaml
+/README.local.md
+# /model.py
+/shareable/
+
+# Model implementations stay local unless explicitly released
+# /src/models/*.py
+# !/src/models/__init__.py
+# /src/predictors/*.py
+# !/src/predictors/__init__.py
+# !/src/predictors/base.py
+# !/src/predictors/factory.py
+# /src/tools/convert_to_cpu.py
