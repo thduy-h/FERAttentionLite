@@ -1,0 +1,23 @@
+{
+  "model": "FERAttentionLite",
+  "best_epoch": 94,
+  "val_accuracy": 0.6653663973251602,
+  "val_macro_f1": 0.6480484839607473,
+  "test_accuracy": 0.685427695736974,
+  "test_macro_f1": 0.6690044822055443,
+  "trainable_parameters": 1211033,
+  "cpu_latency_ms_per_face": 4.738305229978627,
+  "classifier_fps_cpu": 211.04592284877157,
+  "batch_size": 512,
+  "gpu_count": 2,
+  "amp": true,
+  "labels": [
+    "Angry",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Sad",
+    "Surprise",
+    "Neutral"
+  ]
+}
