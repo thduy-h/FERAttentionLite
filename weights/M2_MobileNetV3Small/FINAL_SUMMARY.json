@@ -1,0 +1,30 @@
+{
+  "model": "MobileNetV3Small",
+  "pretrained": "ImageNet",
+  "best_epoch": 33,
+  "best_stage": "finetune",
+  "val_accuracy": 0.6567288938422959,
+  "val_macro_f1": 0.6432681047691705,
+  "test_accuracy": 0.6753970465310671,
+  "test_macro_f1": 0.6591396843970719,
+  "parameters": 1525031,
+  "cpu_latency_ms_per_face": 10.22387907666901,
+  "classifier_fps_cpu": 97.81023352300883,
+  "batch_size": 128,
+  "gpu_count_used": 1,
+  "amp": true,
+  "labels": [
+    "Angry",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Sad",
+    "Surprise",
+    "Neutral"
+  ],
+  "input_size": [
+    3,
+    224,
+    224
+  ]
+}
